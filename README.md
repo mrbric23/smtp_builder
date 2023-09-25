@@ -1,7 +1,7 @@
 
 # SMTP Builder V3
 
-With this tool you can create a professional and complete mail server with SMTP, IMAP and POP3 protocol without any knowledge in just a few clicks. 
+With this tool you can create a professional and complete mail server with SMTP, IMAP and POP3 protocol easily in just a few clicks. 
 
 You're sender email address will be signed with all actual security system SPF, DKIM and DMARC and you will obtain a 10 / 10 score on mail-tester.com every time. 
 
