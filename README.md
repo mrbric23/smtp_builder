@@ -58,14 +58,16 @@ Avoid spammy words in domain name.
  - [https://contabo.com](https://www.kqzyfj.com/a1107kjspjr6877GD978768AEGDBE7) (strongest)
 
 > **Note**
-> Only works with Ubuntu 20.04 OS.
-> 
-> Minimum Requirements : 1 vCPU, 1GB RAM.
+Only works with Ubuntu 20.04 OS.
+
+> **Note**
+Minimum Requirements : 1 vCPU, 1GB RAM.
 
 > **Warning**
-> Mail ports (25, 465, 587) must be opened.
-> 
-> VPS provider must have an RDNS feature.
+Mail ports (25, 465, 587) must be opened.
+
+> **Warning**
+VPS provider must have an RDNS feature.
 
 ### Step 3. Configure domain DNS
 
@@ -103,9 +105,10 @@ Start to build your mail server with this simple command, please replace exemple
 ```
 
 > **Note**
-> Username and password will be used to access the mail server so choose the ones you want.
->
-> Your final sender email address will be username@yourdomain.com.
+Username and password will be used to access the mail server so choose the ones you want.
+
+> **Note**
+Your final sender email address will be username@yourdomain.com.
 
 ### Step 5. Configure RDNS / PTR
 
