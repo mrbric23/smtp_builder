@@ -6,6 +6,10 @@ With this tool you can create a professional and complete mail server with SMTP,
 You're sender email address will be signed with all actual security system SPF, DKIM and DMARC and you will obtain a 10 / 10 score on mail-tester.com every time. 
 
 You will be able to mass send emails without any limit.
+
+An online version is available here with auto DNS management. 
+https://smtp-builder.com
+
 ## Features
 
 - ✔ Unlimited emails sending
