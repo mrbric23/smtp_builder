@@ -39,7 +39,7 @@ You will be able to mass send emails without any limit.
 
 ## Usage/Examples
 
-Step 1. Buy a domain name :
+### Step 1. Buy a domain name :
 
 - [https://namecheap.com](https://www.kqzyfj.com/j4116vpyvpxCEDDMJFDEDCEIDELKIM) (-50%)
 
@@ -47,7 +47,7 @@ Step 1. Buy a domain name :
 
     Choose common TLD to ensure deliverability.
 
-Step 2. Buy a VPS server :
+### Step 2. Buy a VPS server :
 
  - [https://hostwinds.com](https://www.hostwinds.com/30127.html) (cheapest)
  - [https://contabo.com](https://www.kqzyfj.com/a1107kjspjr6877GD978768AEGDBE7) (strongest)
@@ -60,7 +60,7 @@ Step 2. Buy a VPS server :
     
     Minimum Requirements : 1 vCPU, 1GB RAM.
 
-Step 3. Configure domain DNS
+### Step 3. Configure domain DNS
 
 Remove all DNS Records on your domain name and add the following entries, please note that you need to replace IPv4 / IPv6 by the IP addresses of the VPS server you buyed in previous step :
 
@@ -69,7 +69,7 @@ Remove all DNS Records on your domain name and add the following entries, please
 | A | mail | VPS IPv4 |
 | AAAA | mail | VPS IPv6 |
 
-Step 4. Build your mail server
+### Step 4. Build your mail server
 
 Connect with SSH on your VPS server and use following command to download the bash script and configuration files. 
 
@@ -93,11 +93,11 @@ INFO : Username and password will be used to access the mail server so choose th
 
 INFO : Your final sender email address will be username@yourdomain.com.
 
-Step 5. Configure RDNS / PTR
+### Step 5. Configure RDNS / PTR
 
 Configure Reverse DNS (RDNS) or PTR records for both your VPS server's IPv4 and IPv6 addresses on VPS provider website. Ensure that these records point to: mail.example.com.
 
-Step 6 - Finalize DNS configuration
+### Step 6 - Finalize DNS configuration
 
 Elevate domain security and email reliability by adding essential DNS records. Direct emails accurately with an MX record, validate senders via SPF, DMARC, and DKIM records, and bolster overall credibility.
 
@@ -110,8 +110,7 @@ Elevate domain security and email reliability by adding essential DNS records. D
 
 Info : The bash script will output the DKIM Key once build is finished. Please replace "v=DKIM1;h=sha256;k=rsa;p=MIIBIjANBgk..." by the actual output of the script.
 
-TIPS 
-----
+## TIPS 
 
 You can add more users after setup with this command : useradd -m username (eg. useradd -m contact)
 
