@@ -76,6 +76,12 @@ Remove all DNS Records on your domain name and add the following entries, please
 | A | mail | VPS IPv4 |
 | AAAA | mail | VPS IPv6 |
 
+> **Note**
+AAAA (IPv6) record optional but enhances deliverability.
+
+> **Warning**
+DNS resolution can take 48 hours (Usually 10 minutes).
+
 ### Step 4. Build your mail server
 
 Connect with SSH on your VPS server and use following command to download the bash script and configuration files. 
@@ -96,9 +102,10 @@ Start to build your mail server with this simple command, please replace exemple
 ./setup.sh -d exemple.com -u yourusername -p yourpassword
 ```
 
-INFO : Username and password will be used to access the mail server so choose the ones you want.
-
-INFO : Your final sender email address will be username@yourdomain.com.
+> **Note**
+> Username and password will be used to access the mail server so choose the ones you want.
+>
+> Your final sender email address will be username@yourdomain.com.
 
 ### Step 5. Configure RDNS / PTR
 
