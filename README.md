@@ -105,14 +105,15 @@ Start to build your mail server with this simple command, please replace exemple
 ```
 
 > **Note**
-Username and password will be used to access the mail server so choose the ones you want.
-
-> **Note**
 Your final sender email address will be username@yourdomain.com.
 
 ### Step 5. Configure RDNS / PTR
 
-Configure Reverse DNS (RDNS) or PTR records for both your VPS server's IPv4 and IPv6 addresses on VPS provider website. Ensure that these records point to: mail.example.com.
+Configure Reverse DNS (RDNS) or PTR records for both your VPS server's IPv4 and IPv6 addresses on VPS provider website. Ensure that these records point to: 
+
+```text
+mail.yourdomain.com
+```
 
 ### Step 6 - Finalize DNS configuration
 
