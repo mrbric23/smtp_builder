@@ -130,8 +130,16 @@ The bash script will output the DKIM Key once build is finished. Please replace 
 
 ## TIPS 
 
-You can add more users after setup with this command : useradd -m username (eg. useradd -m contact)
+You can add more users after setup with this command (eg. useradd -m contact) :
 
-Then define a password with this command : passwd username (eg. passwd contact)
+```bash
+useradd -m username
+```
+
+Then define a password with this command (eg. passwd contact) :
+
+```bash
+passwd username
+```
 
 You can warmup your smtp with that tool to have a long term inbox rate : https://www.mailwarm.com/
