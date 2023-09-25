@@ -125,7 +125,8 @@ Elevate domain security and email reliability by adding essential DNS records. D
 | TXT | _dmarc | v=DMARC1; p=reject; sp=reject; adkim=s; aspf=s; |
 | TXT | default._domainkey | v=DKIM1;h=sha256;k=rsa;p=MIIBIjANBgk... |
 
-Info : The bash script will output the DKIM Key once build is finished. Please replace "v=DKIM1;h=sha256;k=rsa;p=MIIBIjANBgk..." by the actual output of the script.
+> **Note**
+The bash script will output the DKIM Key once build is finished. Please replace "v=DKIM1;h=sha256;k=rsa;p=MIIBIjANBgk..." by your actual DKIM key.
 
 ## TIPS 
 
