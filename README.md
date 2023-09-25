@@ -57,13 +57,13 @@ Avoid spammy words in domain name.
  - [https://hostwinds.com](https://www.hostwinds.com/30127.html) (cheapest)
  - [https://contabo.com](https://www.kqzyfj.com/a1107kjspjr6877GD978768AEGDBE7) (strongest)
 
-    Only works with Ubuntu 20.04 OS.
-    
-    Mail ports (25, 465, 587) must be opened.
-    
-    VPS provider must have an RDNS feature.
-    
-    Minimum Requirements : 1 vCPU, 1GB RAM.
+> **Note**
+> Only works with Ubuntu 20.04 OS.
+> Minimum Requirements : 1 vCPU, 1GB RAM.
+
+> **Warning**
+> Mail ports (25, 465, 587) must be opened.
+> VPS provider must have an RDNS feature.
 
 ### Step 3. Configure domain DNS
 
