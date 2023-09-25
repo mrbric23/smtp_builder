@@ -209,4 +209,34 @@ echo "$username:$password" | chpasswd
 echo "DenyUsers $username" >> /etc/ssh/sshd_config
 service ssh restart
 
+dkim=$(cat /etc/opendkim/keys/$domain/default.txt | tr -d '\\n' | sed 's/ //g' | sed -e 's/.*(//;s/);.*//' | tr -d '\" \\t')
+
+echo
+echo -e "DKIM : $dkim"
+echo 
+echo -e "${C_YELLOW}[SMTP]${C_NONE}"
+echo 
+echo "Host : mail.$domain"
+echo "Port : 465"
+echo "Protocol : STARTTLS (Min : TLS 1.2)"
+echo 
+echo -e "${C_YELLOW}[POP3]${C_NONE}"
+echo 
+echo "Host : mail.$domain"
+echo "Port : 110"
+echo "Protocol : STARTTLS (Min : TLS 1.2)"
+echo 
+echo -e "${C_YELLOW}[IMAP]${C_NONE}"
+echo 
+echo "Host : mail.$domain"
+echo "Port : 993"
+echo "Protocol : STARTTLS (Min : TLS 1.2)"
+echo 
+echo -e "${C_YELLOW}Credentials${C_NONE}"
+echo "=================================="
+echo
+echo "Email    : $username@$domain"
+echo "Username : $username"
+echo "Password : $password"
+
 exit
