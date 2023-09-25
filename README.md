@@ -1,5 +1,5 @@
 
-# SMTP Builder
+# SMTP Builder V3
 
 With this tool you can create a professional and complete mail server with SMTP, IMAP and POP3 protocol without any knowledge in just a few clicks. 
 
@@ -9,7 +9,7 @@ You will be able to mass send emails without any limit.
 
 An online version is available here with auto DNS management. 
 
-    https://smtp-builder.com
+[Online version (SMTP Builder V3)](https://smtp-builder.com)
 
 ## Features
 
