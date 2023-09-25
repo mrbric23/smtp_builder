@@ -7,9 +7,7 @@ You're sender email address will be signed with all actual security system SPF, 
 
 You will be able to mass send emails without any limit.
 
-An online version is available here with auto DNS management. 
-
-[Online version (SMTP Builder V3)](https://smtp-builder.com)
+An online version is available [here](https://smtp-builder.com) with auto DNS management. 
 
 ## Features
 
