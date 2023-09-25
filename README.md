@@ -59,10 +59,12 @@ Avoid spammy words in domain name.
 
 > **Note**
 > Only works with Ubuntu 20.04 OS.
+> 
 > Minimum Requirements : 1 vCPU, 1GB RAM.
 
 > **Warning**
 > Mail ports (25, 465, 587) must be opened.
+> 
 > VPS provider must have an RDNS feature.
 
 ### Step 3. Configure domain DNS
