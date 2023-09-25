@@ -46,9 +46,11 @@ An online version is available [here](https://smtp-builder.com) with auto DNS ma
 
 - [https://namecheap.com](https://www.kqzyfj.com/j4116vpyvpxCEDDMJFDEDCEIDELKIM) (-50%)
 
-    Avoid spammy words in domain name.
+> **Note**
+Choose common TLD to ensure deliverability.
 
-    Choose common TLD to ensure deliverability.
+> **Warning**
+Avoid spammy words in domain name. 
 
 ### Step 2. Buy a VPS server :
 
