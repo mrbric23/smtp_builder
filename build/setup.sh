@@ -20,19 +20,19 @@ done
 
 if [ $# -eq 0 ]
 then
-    echo -e "${C_RED}[ERROR]${C_NONE} Please provide -d -u -p arguments.\n{C_GREEN}[HELP]${C_NONE} Example : ./setup.sh -d domain.com -u username -p password"
+    echo -e "${C_RED}[ERROR]${C_NONE} Please provide -d -u -p arguments.\n${C_GREEN}[HELP]${C_NONE} Example : ./setup.sh -d domain.com -u username -p password"
     exit 1
 fi
 
 if [ -z "$domain" ];
 then
-    echo -e "${C_RED}[ERROR]${C_NONE} Please provide '-d | --domain' argument.\n{C_GREEN}[HELP]${C_NONE} Example : ./setup.sh -d domain.com -u username -p password"
+    echo -e "${C_RED}[ERROR]${C_NONE} Please provide '-d | --domain' argument.\n${C_GREEN}[HELP]${C_NONE} Example : ./setup.sh -d domain.com -u username -p password"
     exit 2
 fi
 
 if [ -z "$username" ];
 then
-    echo -e "${C_RED}[ERROR]${C_NONE} Please provide '-u | --username' argument.\n{C_GREEN}[HELP]${C_NONE} Example : ./setup.sh -d domain.com -u username -p password"
+    echo -e "${C_RED}[ERROR]${C_NONE} Please provide '-u | --username' argument.\n${C_GREEN}[HELP]${C_NONE} Example : ./setup.sh -d domain.com -u username -p password"
     exit 3
 fi
 
@@ -44,7 +44,7 @@ fi
 
 if [ -z "$password" ];
 then
-    echo -e "${C_RED}[ERROR]${C_NONE} Please provide '-p | --password' argument.\n{C_GREEN}[HELP]${C_NONE} Example : ./setup.sh -d domain.com -u username -p password"
+    echo -e "${C_RED}[ERROR]${C_NONE} Please provide '-p | --password' argument.\n${C_GREEN}[HELP]${C_NONE} Example : ./setup.sh -d domain.com -u username -p password"
     exit 5
 fi
         
