@@ -88,10 +88,10 @@ DNS resolution can take 48 hours (Usually 10 minutes).
 Connect with SSH on your VPS server and use following command to download the bash script and configuration files. 
 
 ```bash
-git clone https://github.com/TungKaiYing/smtp_builder/tree/main/build
+git clone https://github.com/TungKaiYing/smtp_builder
 ```
 
-Inside the downloaded directory add execution rights on setup.sh file.
+Inside the downloaded directory and 'build' folder allow execution on setup.sh file.
 
 ```bash
 chmod +x setup.sh
