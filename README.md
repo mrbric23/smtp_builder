@@ -91,7 +91,7 @@ Connect with SSH on your VPS server and use following command to download the ba
 git clone https://github.com/TungKaiYing/smtp_builder
 ```
 
-Inside the downloaded directory 'smtp_builder/builder' give execution to setup.sh file.
+Inside the downloaded directory 'smtp_builder/builder' give execution rights to setup.sh file.
 
 ```bash
 chmod +x setup.sh
