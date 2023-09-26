@@ -43,7 +43,7 @@ You will be able to mass send emails without any limit.
 
 ### Step 1. Buy a domain name :
 
-- [https://namecheap.com](https://www.kqzyfj.com/j4116vpyvpxCEDDMJFDEDCEIDELKIM) (-50%)
+- [https://namecheap.com](https://www.tkqlhce.com/gk115mu2-u1HJIIROKIJIHJNMPROJR) (-50%)
 
 > **Note**
 Choose common TLD to ensure deliverability.
@@ -54,7 +54,7 @@ Avoid spammy words in domain name.
 ### Step 2. Buy a VPS server :
 
  - [https://hostwinds.com](https://www.hostwinds.com/30127.html) (cheapest)
- - [https://contabo.com](https://www.kqzyfj.com/a1107kjspjr6877GD978768AEGDBE7) (strongest)
+ - [https://contabo.com](https://www.kqzyfj.com/g5102xdmjdl0211A731210248A7581) (strongest)
 
 > **Note**
 Only works with Ubuntu 20.04 OS.
