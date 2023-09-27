@@ -53,7 +53,7 @@ Avoid spammy words in domain name.
 
 ### Step 2. Buy a VPS server :
 
- - [https://hostwinds.com](https://www.hostwinds.com/30127.html) (cheapest)
+ - [https://hostwinds.com](https://www.hostwinds.com/30127-6.html) (cheapest)
  - [https://contabo.com](https://www.kqzyfj.com/g5102xdmjdl0211A731210248A7581) (strongest)
 
 > **Note**
